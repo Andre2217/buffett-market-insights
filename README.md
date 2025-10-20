@@ -62,6 +62,8 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 
 3. Execute os notebooks
 
+--- 
+
 ## 📂 Estrutura de Pastas
 ```bash
 /project-root
@@ -74,12 +76,14 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 └── README.md
 ```
 
-##⚠️ Observações Importantes
+--- 
+
+## ⚠️ Observações Importantes
 - *Chaves API* nunca devem ser commitadas. Use ```.env``` para manter seguras.
 - *Logs e arquivos temporários* estão incluídos no ```.gitignore```.
 - Este projeto é um exercício prático de Web Mining e ETL, ideal para aprendizado e análise exploratória.
 
-##💡 Possíveis Extensões Futuras
+## 💡 Possíveis Extensões Futuras
 - Integração com dashboards em *Power BI* ou *Tableau*.
 - Automatização completa com *Airflow* ou *Prefect*.
 - Adição de mais fontes de notícias financeiras e análise de sentimento.
