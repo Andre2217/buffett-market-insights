@@ -68,10 +68,10 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 ```bash
 /project-root
 │
-├── data/           # Arquivos brutos e processados (.parquet)
-├── notebooks/      # Jupyter notebooks de análise e testes
-├── src/            # Scripts e módulos Python
+├── data_clean/     # Arquivos processados (.parquet)
+├── data_raw/       # Arquivos brutos (.parquet)
 ├── logs/           # Logs de execução (ignorado pelo git)
+├── outputs/        # Saidas do código (ignorado pelo git)
 ├── .gitignore      # Arquivos/pastas a serem ignorados
 └── README.md
 ```
