@@ -73,6 +73,9 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 ├── logs/           # Logs de execução (ignorado pelo git)
 ├── outputs/        # Saidas do código (ignorado pelo git)
 ├── .gitignore      # Arquivos/pastas a serem ignorados
+├── AnaliseDadosWarrenBuffett.ipynb      # notebook de analises de dados
+├── ColetaDadosWarrenBuffett.ipynb      # Notebook de coleta de dados
+├── requirements.txt      # Arquivos dos requisitos
 └── README.md
 ```
 
