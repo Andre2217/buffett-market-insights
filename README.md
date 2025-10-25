@@ -119,6 +119,7 @@ Crie um arquivo .env na raiz do projeto e adicione:
 
 ## 📂 Estrutura de Pastas
 ```bash
+
 /project-root
 │
 ├── data_raw/           # Dados brutos coletados
@@ -134,6 +135,7 @@ Crie um arquivo .env na raiz do projeto e adicione:
 ├── requirements.txt                     # Dependências do projeto
 ├── .gitignore
 └── README.md
+
 ```
 
 ## ⚠️ Boas Práticas e Observações
