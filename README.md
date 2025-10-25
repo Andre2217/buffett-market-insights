@@ -89,7 +89,7 @@ pip install -r requirements.txt
 ```
 
 Exemplo de dependências incluídas:
-`
+```bash
 pandas
 numpy
 matplotlib
@@ -100,21 +100,25 @@ selenium
 pyarrow
 nltk
 python-dotenv
-`
+```
 
 ## 🚀 Como Executar o Projeto
 
 ### 1. Clone o repositório:
-   `git clone https://github.com/seu-usuario/seu-repositorio.git`
+   ```bash 
+   git clone https://github.com/Andre2217/buffett-market-insights.git
+  ```
 ### 2. Configure sua chave da API Alpha Vantage:
 Crie um arquivo .env na raiz do projeto e adicione:
-  `ALPHA_VANTAGE_API_KEY=your_api_key_here`
+  ```bash 
+  ALPHA_VANTAGE_API_KEY=your_api_key_here
+  ```
 ### 3. Execute os notebooks na ordem:
   - `ColetaDadosWarrenBuffett.ipynb`
   - `AnaliseDadosWarrenBuffett.ipynb`
 
 ## 📂 Estrutura de Pastas
-`
+```bash
 /project-root
 │
 ├── data_raw/           # Dados brutos coletados
@@ -130,7 +134,8 @@ Crie um arquivo .env na raiz do projeto e adicione:
 ├── requirements.txt                     # Dependências do projeto
 ├── .gitignore
 └── README.md
-`
+```
+
 ## ⚠️ Boas Práticas e Observações
 
   - 🔐 Nunca compartilhe chaves de API ou credenciais no código.
